@@ -9,6 +9,8 @@ export default class GifSearch extends Component {
                 Enter a Search Term:
                 <input type="text" onInput={this.props.onChangeSearch} ></input>
                 <button type="button" onClick={this.props.handleOnClick}>Find Gifs</button>
+                <br>
+                </br>
             
             </div>
         )

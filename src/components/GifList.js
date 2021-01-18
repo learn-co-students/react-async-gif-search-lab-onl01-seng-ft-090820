@@ -5,7 +5,7 @@ class GifList extends Component {
         return (
             <div>
                 <ul>
-                    {this.props.gifs.map(gif => <img src={gif} alt="gif"/>)}
+                    {this.props.gifs.map(gif => <img src={gif.url} alt="gif"/>)}
                 </ul>
             </div>
         )
